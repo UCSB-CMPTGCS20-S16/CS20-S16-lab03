@@ -149,8 +149,6 @@ Once you've planned your letters on paper, you are ready to start coding.
 Step 2: Driver gets things started on first letter in ~/cs20/lab03
 -----------------------------------------------------------------
 
-### Step 2a: Driver creates ~/cs20/lab03 directory
-
 Create a cs20/lab03 folder or directory on the driver's computer. (If you have a git repository set up for lab03, do this inside your git repository. If not, no worries—we can do that part later.)
 
 Then, bring up IDLE.
@@ -211,50 +209,9 @@ As you code, put a comment before each step, that explains in English what you a
 * https://foo.cs.ucsb.edu/8wiki/index.php/S14:Lectures:04.07
 * https://foo.cs.ucsb.edu/8wiki/index.php/S14:Labs:lab02:Help
 
-DON'T WAIT UNTIL YOU'VE GOT THE LETTER FINISHED to move to the NEXT STEP. But you probably want to try to get at least one or two points, and one or two line segments so you have SOMETHING you can see that is being drawn. Once that's true, move to the next step, which you should DEFINITELY do before you leave lab today (even if you don't finish the whole lab.)
 
-Step 3: A word about security and academic honesty
---------------------------------------------------
-
-VERY IMPORTANT for pair programming is being able to share code in a secure way.
-
-EQUALLY IMPORANT is making sure that no-one can steal your code. You may think that if someone else steals your code, only they will get in trouble. The problem is that sometimes its difficult to tell who stole code from whom, and so it appears that both parties that turn in identical code might have been cheating together. So, you want to protect your code from evildoers.
-
-In steps 4 and 5 we are going to learn how to secure our files against evildoers, and how to share code securely with our pair partner. But first, this message:
-
-### A word about academic dishonesty
-
-Most UCSB students are honest, and do their own work. However, sadly, sometimes people will try to turn in other folks work as their own. Consequences can be serious. The most severe consequence is that your instructor(s) will lose respect for you.
-
-There is a list of students in my head that, because I have caught them in academic dishonesty, are forever in "shunned" status. I will teach them, and I will advise them, and I will do everything for them that I am contractually obligated to do.
-
-Here are some things I do for students ALL THE TIME but that are NOT part of what I'm contractually obligated to do:
-
--   write recommendations for jobs and grad school
--   talk outside of office hours about careers
--   let them know about special opportunities for jobs, internships, research opportunities, student organizations, etc.
-
-First offense of academic dishonesty, I learn that I can't trust you, and don't really care to go the extra mile for you anymore. So, don't, don't, don't, don't go there.
-
-Some of the most common kinds of academic dishonesty:
-
--   "Borrowing" or Copying other people's code (other than your pair partner) and turning it in as your own.
--   "Borrowing" or Copying other people's code (other than your pair partner) and changing it in only superficial ways to make it look as if you didn't copy it---but you clearly did.
--   Providing your code to others so they can do one of the above.
-
-On this assignments, we've already taken steps to reduce the temptation here. Only folks with the same first or last name as you---or very similar letters---are even "candidates" for folks you could inappropriately collaborate with. What I hope I've shown you is that for any letter of the alphabet, even simple ones like L, there are multiple ways to solve the problem. Even for L: what order do you draw the lines in? What names do you give the points? What comments do you put in your code? Lot's of variation is possible---and there SHOULD be lots of variation if folks are working independently.
-
-Ok, so we are going to do honest work, collaborating only with our pair partner, and then getting help from TAs or the instructor if we need help beyond that. What do we need to know?
-
-Steps 4 and 5
--------------
-
-(removed because they don't apply to CCS CS20--they were specific to working in the CSIL lab.)
-
-Step 6: Back to drawing letters
--------------------------------
-
-Ok, I asked you back at step 2 to NOT wait until your first letter was perfect before continuing to steps 3, 4 and 5, but NOW, please return to making your first letter perfect.
+Step 3: Draw the remaining letters
+----------------------------------
 
 When your first initial looks good, its time to try the next one.
 
@@ -289,9 +246,10 @@ So calling them (pickle, tomato, cucumber) is not ok---you could make it work, b
 
 But (turt, wid, hght) is fine, as is (t, w, h), or (aTurtle, width, height).
 
-### Testing your second drawing function
+Step 4: Testing your first and second letters
+----------------------------------------------
 
-To test your second drawing function, add code into your go() function, like this:
+To test your first and second drawing function, add code into your go() function, like this:
 
 
     def go():
@@ -318,7 +276,7 @@ If you are Mike McMahaon working with Martha Masters, then you'll be really in l
 
 However, I tried to make sure that would not happen when I made pair assignments. Depending on whether you are in a pair or a trio, and how many letters you share in common with your pair partner, you'll need between one and six letter drawing functions. Repeat the steps above until you have all of those done, and switch driver/navigator between each function. Then you are ready for the combining steps.
 
-Step 7: The step where you combine things
+Step 5: The step where you combine things
 -----------------------------------------
 
 In this step, you are going to write either one, two or three new functions, for each of the initials of the members of the pair or trio.
@@ -355,7 +313,7 @@ Then, modify your go() function so that it draws every member of your team's ini
 
 When that's done, you are ready to do your finalcheck list on your code before submission, and then use turnin to submit.
 
-Step 8: Final Checklist
+Step68: Final Checklist
 -----------------------
 
 Here's your final checklist. Each of these items will contribute to your grade for this lab.
@@ -383,7 +341,7 @@ If so, you are ready to submit!
 
 NOTE: Only one member of each pair has to submit, but BOTH members of the pair are responsible to make sure the submit happens. Blaming your partner for not submitting is no excuse for not having your work submitted.
 
-Step 9: Submit with submit.cs
+Step 7: Submit with submit.cs
 -----------------------------
 
 
