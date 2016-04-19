@@ -101,7 +101,7 @@ Now, go to the lab03 Pair Partner Forum on Gauchospace, and register your pair.
 
 A link to that forum is here:
 
-<https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=356112>
+https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=582463
 
 Here's what should be in your post:
 
@@ -113,9 +113,11 @@ Here's what should be in your post:
 
 (b) Did you and your pair partner exchange some kind of contact information (e.g. email, cell numbers, etc.). Note: the right answer should be YES, because you should do that NOW. :-)
 
-(c) What are your CSIL usernames? Write down both CSIL usernames in your post. Exchange CSIL usernames with each other but DO NOT exchange passwords! We'll show you in a minute how to share files with each other without exchanging passwords.
+(c) What are your CSIL usernames? Write down both CSIL usernames in your post. Exchange CSIL usernames with each other but DO NOT exchange passwords! You can share files with one another through github.
 
--   You MUST NEVER given someone else your CSIL password---doing so is a "terms of service" violation, and you could lose your CSIL privileges and be subject to disciplinary action.
+(d) What are your github.com usernames? Write down both github.com usernames in your post. Exchange github.com usernames with each other but DO NOT exchange passwords!
+
+-   You MUST NEVER given someone else your CSIL or github.com password---doing so is a "terms of service" violation.  In the CSIL case, you could lose your CSIL privileges and be subject to disciplinary action.
 
 Only one partner needs to record this on Gauchospace on behalf of the pair or trio.
 
