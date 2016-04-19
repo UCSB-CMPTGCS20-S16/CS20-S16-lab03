@@ -1,7 +1,7 @@
 Goal
 ====
 
-The goal of this lab is to produce somewhere between two and nine Python functions that use Turtle Graphics to make particular shapes.
+The goal of this exercise is to practice with Turtle Graphics in Python by producing somewhere between two and nine Python functions that use Turtle Graphics to make particular shapes.
 
 (You'll understand the reasons its "between two and nine" in a minute.)
 
@@ -10,7 +10,7 @@ You'll work in pairs (for this assignment, that's *required*. The good news is t
 -   In rare cases, where there might be an odd number of students in a particular lab session, we might allow AT MOST one group of three.
 -   In even more rare cases, if it is UNAVOIDABLE, someone might work alone, but this is not something you can "choose"—it will only be permitted when the instructor finds there is no other way to accommodate an unusual situation.
 
-Work with your assigned pair programming partner on this lab. If you do not have one, consult the TA for your lab and/or your instructor for advice prior to starting.
+Work with your assigned pair programming partner on this lab. If you do not have one, consult with the instructors before starting.
 
 Why is pair programming required and not optional?
 --------------------------------------------------
@@ -70,16 +70,18 @@ You'll also write a function called go() that draws each members of the pair (or
 More Examples, and Example Code
 ===============================
 
-In Lecture on 04/07/2014 (Link: <S14:Lectures:04.07>) , we went over an example of a function that draws the letter A.
+Here is some example code for function that draws the letter A.
+
+https://foo.cs.ucsb.edu/8wiki/index.php/S14:Lectures:04.07
 
 There are also some additional examples of bounding boxes for a "zero", and some code at this link:
 
-<S14:Labs:lab02:Help>
+https://foo.cs.ucsb.edu/8wiki/index.php/S14:Labs:lab02:Help
 
 Programming, Step-by-Step
 =========================
 
-By now, you should have your letters planned out, and you should be sitting WITH YOUR PAIR PARTNER in lab.
+You should be sitting WITH YOUR PAIR PARTNER to start this assignment.
 
 Follow these steps to complete the assignment
 
@@ -91,7 +93,7 @@ The initial driver will be the one that is typing on the computer.
 -   If you are both sitting in front of computers, one of you please CLOSE YOUR COMPUTER NOW. You should both be sitting at the SAME COMPUTER.
 -   If you are both logged in, the temptation to "not really do pair programming" will be too great, at least until you are used to the system.
 
-Now, go to the lab02 Pair Partner Forum on Gauchospace, and register your pair.
+Now, go to the lab03 Pair Partner Forum on Gauchospace, and register your pair.
 
 A link to that forum is here:
 
@@ -138,12 +140,12 @@ A warning about that last approach: although it may seem like it isn't that toug
 
 Once you've planned your letters on paper, you are ready to start coding.
 
-Step 2: Driver gets things started on first letter in ~/cs8/lab02
+Step 2: Driver gets things started on first letter in ~/cs20/lab03
 -----------------------------------------------------------------
 
-### Step 2a: Driver creates ~/cs8/lab02 directory
+### Step 2a: Driver creates ~/cs20/lab03 directory
 
-Create a cs8/lab02 folder or directory on the driver's computer. (If you have a git repository set up for lab02, do this inside your git repository. If not, no worries—we can do that part later.)
+Create a cs20/lab03 folder or directory on the driver's computer. (If you have a git repository set up for lab03, do this inside your git repository. If not, no worries—we can do that part later.)
 
 Then, bring up IDLE.
 
@@ -168,10 +170,10 @@ Example:
 
       # The rest is up to you to figure out
 
-Then, at the top of your file, add this comment, and the `import` `turtle` line, and save the file as lab02.py. (The function def for drawA or whatever your first initial is that you are trying to draw goes below that point, as shown:
+Then, at the top of your file, add this comment, and the `import` `turtle` line, and save the file as lab03.py. (The function def for drawA or whatever your first initial is that you are trying to draw goes below that point, as shown:
 
-    # lab02.py for Alice Baker and Chris Gaucho
-    # CS8, Fall 2013, Prof. Conrad
+    # lab03.py for Alice Baker and Chris Gaucho
+    # CS20, Spring 2016, Instructor: Phill Conrad
     # Draw some initials using turtle graphics
 
     import turtle
@@ -198,7 +200,10 @@ Now save your file, and try running it. You should see a Turtle pop up, but unle
 
 Your next task: start adding code into your first initial drawing routine so that it draws an initial. My suggestion is to NOT wait until you have the whole thing done to test---instead, work with one or two points at a time, and one or two line segments at a time, and after each one is added, try to run and see if what you have so far is working.
 
-As you code, put a comment before each step, that explains in English what you are doing. See the [example from lecture](S14:Lectures:04.07 "wikilink") and the example at <S14:Labs:lab02:Help> for guidance as to what kinds of comments to put in.
+As you code, put a comment before each step, that explains in English what you are doing. See the examples below for guidance as to what kinds of comments to put in.
+
+* https://foo.cs.ucsb.edu/8wiki/index.php/S14:Lectures:04.07
+* https://foo.cs.ucsb.edu/8wiki/index.php/S14:Labs:lab02:Help
 
 DON'T WAIT UNTIL YOU'VE GOT THE LETTER FINISHED to move to the NEXT STEP. But you probably want to try to get at least one or two points, and one or two line segments so you have SOMETHING you can see that is being drawn. Once that's true, move to the next step, which you should DEFINITELY do before you leave lab today (even if you don't finish the whole lab.)
 
@@ -375,13 +380,18 @@ NOTE: Only one member of each pair has to submit, but BOTH members of the pair a
 Step 9: Submit with submit.cs
 -----------------------------
 
+
+TODO: Put in submission instrctions for lab03.py on submit.cs
+
 Grading Rubric:
 ---------------
+
+Note that in a CCS class, we aren't assigning letter grades in the traditional sense.  But I'm including the grading rubric I use for this assignment when I use it in CMPSC 8 so that you get an idea of the kinds of things that I consider important.  You may want to look over this, and check your work against it.
 
 ### Professional software documentation practices
 
 -   (5 pts) Registering your pair on the Gauchospace forum
--   (5 pts) Naming your file lab02.py
+-   (5 pts) Naming your file lab03.py (Note: likely enforced by submit.cs, so I might drop this in future.)
 -   (5 pts) Putting a comment on the first two lines according to the instructions given (with ALL partners' names who worked on this assignment)
 -   (10 pts) Good comments in your draw letter functions, explaining in English what you are doing (as described in Section 2)
 
