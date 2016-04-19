@@ -5,15 +5,19 @@ The goal of this exercise is to practice with Turtle Graphics in Python by produ
 
 (You'll understand the reasons its "between two and nine" in a minute.)
 
-You'll work in pairs (for this assignment, that's *required*. The good news is that most students find that to be a positive experience.
+You'll work in pairs (for this assignment, that's *required*&dagger;. The good news is that most students find that to be a positive experience.
+
+(&dagger;Well, when I say "required", that's to the extent that anything is "required" in a CCS class.  This language is adapted from an assignment used in a CoE context originally.  If you like, in this class, let's go with "strongly encouraged" :-) ).
 
 -   In rare cases, where there might be an odd number of students in a particular lab session, we might allow AT MOST one group of three.
 -   In even more rare cases, if it is UNAVOIDABLE, someone might work alone, but this is not something you can "choose"—it will only be permitted when the instructor finds there is no other way to accommodate an unusual situation.
 
 Work with your assigned pair programming partner on this lab. If you do not have one, consult with the instructors before starting.
 
-Why is pair programming required and not optional?
+Why is pair programming required&dagger; and not optional?
 --------------------------------------------------
+
+&dagger; strongly encouraged. 
 
 -   Pair programming is a real-world skill that is highly valued by employers.
 -   Feedback from companies that employ UCSB CS and CE grads (e.g. AppFolio) They tell us that they want our graduates to get more experience with working in pairs and in groups.
