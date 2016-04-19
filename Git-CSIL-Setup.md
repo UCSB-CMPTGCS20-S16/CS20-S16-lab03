@@ -1,7 +1,7 @@
 There are four "one time setup" items that we recommend that you do under your CSIL account to make it easier to work with git/github. 
 These are:
 
-1. Creating a ~/github directory
+1. Creating a `~/github` directory
 1. Setting up the git default name and email for your ACMS account
 1. Creating an ssh public/private key pair
 1. Uploading your ssh public key to github.com
@@ -112,34 +112,32 @@ Our next step is to navigate to the correct page of github.com to enter that key
 
 # 4. Uploading your ssh public key to github.com
 
-To upload your ssh public key to github.com, start by opening a web browser to github.com.  If you are not yet logged in, login to your github.com account.   
+To upload your ssh public key to github.com, start by opening a web browser to github.com.  
+
+If you are not yet logged in, login to your github.com account.   
+
 Go to the github.com settings menu.  It's on a pull down menu at the upper right hand corner of the page.
 
 Once you are at the settings menu, choose  the SSH keys option. It's in the middle on the left.  
 
+Then, click "Add SSH key".
 
-Selecting User Settings in github.com	Choosing SSH Keys from User Settings
-github.com settings menu	Choose the ssh keys menu option Then, click "Add SSH key" as shown here:
+Next, "copy" your SSH public key from your terminal window so that we can paste it into the github.com web browser window. Be careful to get the whole key, but nothing more than the key. Don't include the shell prompts or the cat command.
 
-Click Add SSH key
+Paste it into the window on the github.com website that asks for the key.
 
+Github may ask for your password to confirm this operation.
 
-Next, copy your SSH public key as shown here, so that we can paste it into the github.com web browser window. Be careful to get the whole key, but nothing more than the key. Don't include the shell prompts or the cat command.
+Then you should get a message that your key was added.
 
-Copy your ssh public key
+Congratulations! You've now added the public key associated with your ECI/CSIL account to github.com.
 
-paste in your ssh public key
-
-Github may ask for your password as shown here:
-asks for password
-
-Then you should get a message that your key was added:
-github confirms that key was added
-Congratulations! You've now added the public key associated with your SPIS ACMS account to github.com.
-
-In the future, if you have a different ACMS account, you'll need to do this step again.
+In the future, if you have a different CSIL account, you'll need to do this step again.
 
 Optional: You may also want to repeat this step for the public key associated with your own personal laptop or desktop computer.
+
 You'll have to generate a separate public/private ssh key pair for each computer that you use with github.com
+
 On Mac and Linux, the ssh-keygen command should work.
+
 The ssh-keygen command is also available in the "git shell" that comes with the Windows version of git.
