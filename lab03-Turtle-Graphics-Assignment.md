@@ -313,7 +313,7 @@ Then, modify your go() function so that it draws every member of your team's ini
 
 When that's done, you are ready to do your finalcheck list on your code before submission, and then use turnin to submit.
 
-Step68: Final Checklist
+Step 6: Final Checklist
 -----------------------
 
 Here's your final checklist. Each of these items will contribute to your grade for this lab.
