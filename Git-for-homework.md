@@ -1,8 +1,17 @@
+# Using .md files (Markdown) on github to submit or publish text
+
 One of the most basic ways to get started with using git and github is to simply create and edit files and directories 
 directly at the github.com web page.
 
-We'll invite you to use github.com to create, edit and submit your solutions to homework assignments in this course.  (What homework assignments?
-Those are coming soon, and will be based on the textbook by Guttag.)
+This can be used in private repos to submit homework to instructors, or in public repos to share content with the world.
+
+If you need just some basic formatting (bold, italics, bullet lists, and including pictures), the Markdown syntax that is built into github is a quick way to get that without having to learn details of HTML.  It's also a lot faster to type, and clutters up your content far less than full HTML.  
+
+If you have a need for fully developed professional looking web pages, github also offers [Github Pages](https://pages.github.com/) which allows you to edit HTML and CSS files through github.com, and see a published web page.    That's beyond the scope of this particular lesson; I'm mentioning it here so that you are aware it exists and in case you want to pursue it further on your own.    
+
+We'll invite you to use github.com to create, edit and submit your solutions to homework assignments in this course.  
+
+(What homework assignments? Those are coming soon, and will be based on the textbook by Guttag.)
 
 During lecture on April 19, 2016, we will (or did, depending on when you are reading this) create a 
 special private github repo for each student in the course, with their name, e.g.
