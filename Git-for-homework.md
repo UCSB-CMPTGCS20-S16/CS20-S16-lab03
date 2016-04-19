@@ -23,3 +23,8 @@ In this repository, we'll invite you to create files with various names for each
 
 PHILL TODO: Add to these instructions, using https://sites.google.com/a/eng.ucsd.edu/cseacademy/spis/AcademicProgram/foundations/git-resources/git-aps-writeups as source material, adapting for UCSB CCS CS 20.
 
+# Helpful links
+
+* Markdown basics (formatting in the git .md files): https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+
