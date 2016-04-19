@@ -1,3 +1,5 @@
+# Setup for Git/Github on CSIL
+
 There are four "one time setup" items that we recommend that you do under your CSIL account to make it easier to work with git/github. 
 These are:
 
