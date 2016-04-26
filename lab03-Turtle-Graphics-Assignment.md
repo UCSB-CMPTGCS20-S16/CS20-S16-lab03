@@ -32,7 +32,7 @@ In fact, UCSB students that used pair programming in Spring 2009 in one of Prof.
 
 There is also evidence in the [scientific literature](http://www.cs.ucsb.edu/~pconrad/csed/pair-programming/) that it improves student learning, and helps you get better grades.
 
-1.  How pair programming will work
+### How pair programming will work
 
 Just as the in the video [Fun with Pair Programming](http://www.youtube.com/watch?v=rG_U12uqRhE), you and one other person will sit at a single terminal and write code.
 
@@ -105,17 +105,17 @@ https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=582463
 
 Here's what should be in your post:
 
-(1) In the title, names of both (or all three) pair partners.
+1. In the title, names of both (or all three) pair partners.
 
-(2) In the body, write down answers to these questions
+2. In the body, write down answers to these questions
 
-(a) What are two times you and your partner(s) can meet this coming week for an hour each to work on this assignment?
+  1. What are two times you and your partner(s) can meet this coming week for an hour each to work on this assignment?
 
-(b) Did you and your pair partner exchange some kind of contact information (e.g. email, cell numbers, etc.). Note: the right answer should be YES, because you should do that NOW. :-)
+  2. Did you and your pair partner exchange some kind of contact information (e.g. email, cell numbers, etc.). Note: the right answer should be YES, because you should do that NOW. :-)
 
-(c) What are your CSIL usernames? Write down both CSIL usernames in your post. Exchange CSIL usernames with each other but DO NOT exchange passwords! You can share files with one another through github.
+  3. What are your CSIL usernames? Write down both CSIL usernames in your post. Exchange CSIL usernames with each other but DO NOT exchange passwords! You can share files with one another through github.
 
-(d) What are your github.com usernames? Write down both github.com usernames in your post. Exchange github.com usernames with each other but DO NOT exchange passwords!
+  4. What are your github.com usernames? Write down both github.com usernames in your post. Exchange github.com usernames with each other but DO NOT exchange passwords!
 
 -   You MUST NEVER given someone else your CSIL or github.com password---doing so is a "terms of service" violation.  In the CSIL case, you could lose your CSIL privileges and be subject to disciplinary action.
 
@@ -344,8 +344,11 @@ NOTE: Only one member of each pair has to submit, but BOTH members of the pair a
 Step 7: Submit with submit.cs
 -----------------------------
 
+For this lab, the autograder will only check for syntax errors.
 
-TODO: Put in submission instrctions for lab03.py on submit.cs
+Here's the link to submit: https://submit.cs.ucsb.edu/form/project/472/submission
+
+If you are on CSIL, you can also submit by typing `~submit/submit -p 472 lab03.py` while youare in the folder containing `lab03.py`
 
 Grading Rubric:
 ---------------
