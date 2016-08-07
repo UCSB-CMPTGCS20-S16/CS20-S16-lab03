@@ -4,7 +4,7 @@ There are four "one time setup" items that we recommend that you do under your C
 These are:
 
 1. Creating a `~/github` directory
-1. Setting up the git default name and email for your ACMS account
+1. Setting up the git default name and email for your CSIL account
 1. Creating an ssh public/private key pair
 1. Uploading your ssh public key to github.com
 
